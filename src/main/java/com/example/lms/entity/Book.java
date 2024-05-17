@@ -18,7 +18,7 @@ public class Book {
     @ManyToOne
     @JoinColumn(name = "author_id")
     private Author author;
-    // Other properties, getters, and setters
+  
 	public Long getId() {
 		return id;
 	}
